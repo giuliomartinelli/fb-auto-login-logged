@@ -72,8 +72,6 @@ npx playwright install --with-deps
 
 ### 4. Crie o arquivo `.env`
 
-> ⚠️ Nunca comite este arquivo — ele contém suas credenciais.
-
 ```bash
 nano .env
 ```
@@ -85,12 +83,6 @@ FACEBOOK_EMAIL=seu@email.com
 FACEBOOK_PASSWORD=SUA_SENHA
 HEADLESS=false
 ```
-
-### 5. Copie o script
-
-Crie o arquivo `fb-auto-login-logged.js` e cole o conteúdo fornecido no repositório.
-
----
 
 ## ▶️ Como executar
 

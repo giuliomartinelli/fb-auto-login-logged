@@ -151,25 +151,6 @@ Para evitar bloqueios simples:
 
 ---
 
-## 🔐 Segurança
-
-* **Nunca** comite o arquivo `.env` — adicione-o ao `.gitignore`
-* Dê permissão restrita:
-
-```bash
-chmod 600 .env
-```
-
-* O diretório `fb-profile` contém cookies e tokens de sessão → também restrinja:
-
-```bash
-chmod 700 fb-profile
-```
-
-* Para ambientes de produção, prefira usar **variáveis de ambiente seguras** (Vault, AWS Secrets Manager, etc.)
-
----
-
 ## 🧠 Dicas avançadas
 
 * Para rodar sem interface gráfica (servidores), defina:
